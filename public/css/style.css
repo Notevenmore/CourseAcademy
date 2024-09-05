@@ -1,0 +1,604 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/* //desain login */
+section.auth section.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 55px;
+}
+section.auth section.logo img {
+    width: 360px;
+    height: 308px;
+}
+section.auth section.logo h1 {
+    color: #702228;
+    font-size: 47px;
+    text-align: center;
+}
+section.auth section.register,
+section.auth section.login {
+    display: flex;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 65px;
+    padding-bottom: 31px;
+    flex-direction: column;
+    background-color: #702228;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    width: 517px;
+    border-radius: 52px;
+}
+
+section.auth section.register h1,
+section.auth section.login h1 {
+    font-size: 75px;
+    margin-bottom: 65px;
+}
+
+section.auth section.register form,
+section.auth section.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    margin-bottom: 40px;
+}
+
+section.auth section.register form input,
+section.auth section.login form input {
+    width: 409px;
+    height: 45px;
+    border-radius: 13px;
+    border-color: white;
+    font-size: 19px;
+}
+
+section.auth section.register form button,
+section.auth section.login form button {
+    border-radius: 13px;
+    width: 211px;
+    height: 31px;
+    font-size: 13px;
+    font-weight: bolder;
+    background-color: #198754;
+    border-color: #198754;
+    color: white;
+}
+
+section.auth section.register p,
+section.auth section.login p {
+    font-style: italic;
+}
+
+/* //desain navbar */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+.menu-profile {
+    display: none;
+    position: absolute;
+    right: 13px;
+    top: 100px;
+    background-color: #702228;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    border-radius: 15px;
+}
+.menu-profile ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu-profile ul li a {
+    text-decoration: none;
+    color: white;
+}
+.logo img {
+    max-height: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.login-button {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+nav .logo {
+    margin-left: 40px;
+    /* margin-right: 207px; */
+}
+nav .logo img {
+    width: 70px;
+    height: 70px;
+}
+nav .menu ul {
+    display: flex;
+    align-items: center;
+    gap: 74px;
+    list-style: none;
+}
+nav .menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav a.login-button {
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    width: 158px;
+    height: 53px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* //desain home guest */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    background-color: #d9d9d9;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 482px;
+    height: 135px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.list-product {
+    width: 1180px;
+    height: 182px;
+    background-color: white;
+    display: flex;
+    margin-top: -90px;
+    align-items: center;
+    justify-content: center;
+    gap: 67px;
+    border-radius: 40px;
+}
+
+.product {
+    width: 210px;
+    height: 130px;
+    background-color: #d9d9d9;
+    border-radius: 1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reason {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 135px;
+    text-align: center;
+    color: white;
+}
+
+.promotion {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 70px;
+    align-items: center;
+    width: 1180px;
+    height: 262px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.text-content {
+    width: 540px;
+    height: 163px;
+}
+
+.link-login-promotion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: #a83642;
+    width: 873px;
+    height: 185px;
+    margin-top: 24px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.link-login-promotion a {
+    width: 188px;
+    height: 68px;
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 1180px;
+    height: 1px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 17.88px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+}
+.footer-asideLeft {
+    width: 459px;
+}
+.footer-mid ul,
+.footer-asideRight ul {
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+}
+.footer-asideRight ul li {
+    display: flex;
+    align-items: center;
+}
+.footer-asideRight ul li img {
+    margin-right: 15px;
+}
+
+/* nav ketika halaman jurusan */
+.nav-jurusan {
+    width: 100%;
+    height: 39px;
+    border: 1px solid #000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-jurusan a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+/* //desain home student */
+
+.heading-user {
+    background-color: #d9d9d9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.content-student {
+    margin-left: 153px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.home-langganan {
+    width: 956px;
+    height: 205px;
+    background-color: white;
+    padding-left: 30px;
+    border-radius: 20px;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.langganan-content {
+    width: 871px;
+    height: 121px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding-left: 34px;
+}
+
+.btn-langganan {
+    width: 189px;
+    height: 47px;
+    border-radius: 5px;
+    background: #a83642;
+    font-size: 15px;
+}
+
+.btn-langganan a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.learning-path-home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 947px;
+    padding-left: 35px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.path-title {
+    font-size: 19px;
+    margin-top: -19px;
+    margin-bottom: 13px;
+}
+
+.learning-path-content {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background: #a83642;
+}
+
+.learning-path-content a {
+    width: 100%;
+    height: 100%;
+    line-height: 250%;
+    text-decoration: none;
+    color: white;
+}
+
+.learning-activity {
+    width: 747px;
+    min-height: 353px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.line-learning-activity {
+    width: 99%;
+}
+
+.learning-taken-student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.study-button {
+    width: 173px;
+    height: 47px;
+    background: #a83642;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.study-button a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    line-height: 250%;
+}
+
+.line-content-student-footer {
+    width: 92%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.heading-langganan {
+    width: 100%;
+    min-height: 173px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-heading-langganan {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.content-list-langganan {
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    height: 564px;
+    overflow: auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.content-list-langganan a {
+    text-decoration: none;
+    color: black;
+}
+
+.course-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.course-items .image-h1-p {
+    display: flex;
+    gap: 30px;
+}
+
+.course-items .image-h1-p img {
+    width: 243px;
+    height: 148px;
+    border-radius: 20px;
+}
+.course-items .image-h1-p .h1-p {
+    width: 500px;
+    text-align: justify;
+}
+.price {
+    font-size: 14px;
+}
+
+/* desain halaman learning path */
+.learning-path-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 228px;
+    width: 100%;
+    background-color: #d9d9d9;
+}
+
+.content-course-heading {
+    width: 363px;
+    text-align: center;
+}
+
+.course-materials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 378px;
+    width: 100%;
+    gap: 48px;
+}
+
+.materials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 151px;
+}
+
+.material {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 100px;
+    width: 300px;
+    background-color: #d9d9d9;
+}
+
+/* desain halaman langganan description */
+.course-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 262px;
+    width: 100%;
+}
+
+.course-heading-aside-left {
+    width: 500px;
+}
+
+.course-heading-aside-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.course-heading-aside-right form button {
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 153px;
+    height: 39px;
+    color: black;
+    font-weight: bold;
+}
+
+.course-content-body {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.course-content-body .facility {
+    width: 948px;
+    border-radius: 25px;
+    background: #d9d9d9;
+    padding: 15px;
+}
+
+.course-content-body .description-course {
+    width: 948px;
+    margin-top: 20px;
+}
